@@ -1,0 +1,72 @@
+body {
+	background: url('http://thumbs.dreamstime.com/x/abstract-repetitive-pattern-24320327.jpg');
+	font-family: 'Oswald', sans-serif;
+}
+
+#introduction {
+	text-align: center;
+}
+
+#introduction img {
+	width: 250px;
+	height: 250px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 16px;
+	font-style: italic;
+}
+
+#introduction h3 {
+	font-size: 12px;
+}
+
+section#introduction {
+	background-color: rgba(200, 210, 210, 0.9);
+	border: 2px rgba(220, 230, 230, 1) solid;
+}
+
+section {
+	font-size: 12px;
+	border-radius: 25px;
+	width: 80%;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+section#characteristics {
+	background-color: rgba(0, 100, 255, 0.9);
+	border-radius: 25px;
+}
+
+#characteristics h3 {
+	font-size: 14px;
+	color: white;
+	text-decoration: underline;
+}
+
+section h3, ul, ol, p{
+	margin-left: 20px;
+}
+
+.top {
+	padding-top: 10px;
+}
+
+.bottom {
+	padding-bottom: 10px;
+}
+
+section#deal-breakers {
+	background-color: rgba(200, 150, 100, 0.9);
+}
+
+#deal-breakers h3 {
+	font-size: 12px;
+	color: rgba(255, 0, 0, 1);
+	font-weight: 900;
+}

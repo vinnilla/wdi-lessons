@@ -1,0 +1,31 @@
+header {
+	font-size: 50px;
+}
+
+ul {
+	list-style-type: none;
+	background-color: rgba(255,255,255,0.95);
+	display: block;
+	padding: 1px 0;
+}
+
+a {
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding: 10px 15px;
+}
+
+body, a {
+	background-color: rgba(0, 0, 0, 0.85);
+	color: rgba(255,255,255, 0.95);
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
