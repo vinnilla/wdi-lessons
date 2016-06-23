@@ -14,8 +14,20 @@ console.log("Assessment loaded!");
 // If they enter another name, print "Move along." If they enter
 // nothing, print "Speak up!"
 
-// var name = window.prompt("What is your name?")
-// console.log(name);
+// ||||||||||||||||||||---SOLUTION---||||||||||||||||||||
+// var name = window.prompt("What is your name?") //get name
+// console.log(name); //print name
+// if (name == 'spartacus' || name == 'Spartacus') { //check spartacus name
+//   console.log("You're a traitor to Rome, crucifixion!"); 
+// }
+
+// else if (name.length > 0) { //check if any other name was entered
+//   console.log("Move along.");
+// }
+
+// else {
+//   console.log("Speak up!")
+// }
 
 // ### HUAAC
 //
@@ -31,6 +43,28 @@ console.log("Assessment loaded!");
 //   - prompt the user with the question "Name names!"
 //   - if the user answers anything, then write: "Good."
 //   - if the user answers nothing, then write: "You are in contempt!"
+
+// ||||||||||||||||||||---SOLUTION---||||||||||||||||||||
+// var answer = window.prompt('Are you now, or have you ever been, a member of the Communist Party?'); //ask
+
+// if (answer == 'No' || answer == 'no') { //check no
+//   console.log("You have sowrn that under oath."); 
+// }
+// else if (answer == 'Yes' || answer == 'yes') { //check yes
+//   var response = window.prompt("Name names!");
+//   if (response.length > 0) { //next set of conditions -- check if response was given
+//     console.log("Good.");
+//   }
+//   else {
+//     console.log("You are in contempt!"); //no response
+//   }
+// }
+// else if (answer.length == 0) { //check if no answer was given
+//   console.log("Pleading the fith, you commie?");
+// }
+// else { // check if other answer was given
+//   console.log("Stick to the questions at hand. This is a serious charge!");
+// }
 
 // ### Big Gary, the Bouncer
 //
@@ -56,6 +90,35 @@ console.log("Assessment loaded!");
 //   - you are over 16 and your income is over 5,000,000,
 //   - you are under 25 (and over 18), you have an income over 250,000,
 //     but are wearing sneakers.
+
+// ||||||||||||||||||||---SOLUTION---||||||||||||||||||||
+// var age = window.prompt('Age?'); //gather info
+// var income = window.prompt('Income?');
+// var sneakers = window.prompt('Sneakers? (yes or no)');
+// var celebrity = window.prompt('Celebrity? (yes or no)');
+
+////check first special case
+// if (age > 16 && (celebrity == 'yes' || celebrity == 'Yes')) { 
+//   console.log('*nod*');
+// }
+//
+////check second special case
+// else if (age > 16 && income > 5000000) { 
+//   console.log('*nod*');
+// }
+
+// //check third special case
+// else if (age > 18 && age < 25 && income > 250000 && (sneakers == 'yes' || sneakers == 'Yes')) { 
+//   console.log('*nod*');
+// }
+
+// //check factors that would keep you out
+// else if (age < 18 || age > 35 || income < 100000 || sneakers == 'yes' || sneakers == 'Yes') { 
+//   console.log("You're not on the list. Sorry.");
+// }
+// else {
+//   console.log('*nod*');
+// }
 
 /**************************** WHILE LOOPS *****************************/
 
@@ -84,9 +147,65 @@ console.log("Assessment loaded!");
 // left, for example, then say "We're out of House, let's go to bed."
 // and then quit.
 
-var episodesOfHouse           = 50,
-    episodesOfGreysAnatomy    = 70,
-    episodesOfIceRoadTruckers = 10;
+// ||||||||||||||||||||---SOLUTION---||||||||||||||||||||
+// var episodesOfHouse           = 50,
+//     episodesOfGreysAnatomy    = 70,
+//     episodesOfIceRoadTruckers = 10;
+
+// do {
+//   var answer = window.prompt('Do you want to keep watching?'); //get answer
+//   if (answer == 'no' || answer == 'No') { //check no
+//     console.log("Okay. Let's go to bed");
+//   }
+//   else if (answer == 'yes' || answer =='Yes') { //otherwise
+      
+//     var answerTwo = 0;//initialize answer variable
+//     do { 
+      
+//       answerTwo = 0; //reset answerTwo variable after the loop resets
+
+//       //print out list of episodes
+//       console.log("Well, we've got:\n" + episodesOfHouse + ' episodes of House left,\n' 
+//       + episodesOfGreysAnatomy + ' episodes of Greys Anatomy left, and\n'
+//       + episodesOfIceRoadTruckers + ' episodes of Ice Road Truckers.');
+
+//       //while loop to keep asking the question if inadequate answers are given
+//       while ((answerTwo != "house") && (answerTwo != "greys") && (answerTwo != "ice")){ 
+//         var answerTwo = window.prompt('What do you want to watch? house, greys, or ice?');
+//       }
+
+//       //console.log(answerTwo); //used to check functionality
+
+//       //subtract 10 episodes from chosen show
+//       if (answerTwo == 'house') {
+//         episodesOfHouse -= 10;
+//       }
+//       else if (answerTwo == 'greys') {
+//         episodesOfGreysAnatomy -= 10;
+//       }
+//       else if (answerTwo == 'ice') {
+//         episodesOfIceRoadTruckers -= 10;
+//       }
+
+//       // condition that keeps user in loop if episodes have not run out
+//     } while (episodesOfHouse >= 0 && episodesOfGreysAnatomy >= 0 && episodesOfIceRoadTruckers >= 0);
+
+//     // let user know that show has run out of episodes
+//     if (episodesOfHouse < 0) {
+//       console.log("We're out of House, let's go to bed.");
+//     }
+//     else if (episodesOfGreysAnatomy < 0) {
+//       console.log("We're out of Greys, let's go to bed.");
+//     }
+//     else {
+//       console.log("We're out of Ice, let's go to bed.");
+//     }
+//   }
+//   else { //keep people from dodging the first question.
+//     console.log("Please answer the question.");
+//   }
+// } while (answer != 'yes' && answer != 'Yes' && answer != 'no' && answer != 'No');
+
 
 /***************************** FOR LOOPS ******************************/
 
@@ -101,6 +220,22 @@ var episodesOfHouse           = 50,
 //     the number.
 //
 // Note: check out the % (modulo) operator!
+
+// ||||||||||||||||||||---SOLUTION---||||||||||||||||||||
+// for (var i=1; i <=100; i++) {
+//   if (i%3 == 0 && i%5 == 0) {
+//     console.log(i + ' fizzbuzz');
+//   }
+//   else if (i%3 == 0) {
+//     console.log(i + ' fizz');
+//   }
+//   else if (i%5 == 0) {
+//     console.log(i + ' buzz');
+//   }
+//   else {
+//     console.log(i);
+//   }
+// }
 
 /***************************** ITERATION ******************************/
 
@@ -125,15 +260,53 @@ var episodesOfHouse           = 50,
 //    - Myrtle:   "   yeeeaaaoooy!"
 //    - Molly:    "   snort!"
 
-var waltons = [
-  "Mama",
-  "Daddy",
-  "Elizabeth",
-  "Blue the mule",
-  "John Boy",
-  "Reckless the dog",
-  "Ben",
-  "Myrtle the goat",
-  "Molly the horse",
-  "Jim Bob",
-];
+// ||||||||||||||||||||---SOLUTION---||||||||||||||||||||
+// var waltons = [
+//   "Mama",
+//   "Daddy",
+//   "Elizabeth",
+//   "Blue the mule",
+//   "John Boy",
+//   "Reckless the dog",
+//   "Ben",
+//   "Myrtle the goat",
+//   "Molly the horse",
+//   "Jim Bob",
+// ];
+// //iterate through each family member
+// for (var i=0; i<waltons.length; i++) {
+//   //find the index first space in the name
+//   var space = waltons[i].search(' ');
+
+
+//   //check if space was found
+//   if (space != -1) {  
+//     //substring to isolate the first name
+//     var shortenedName = waltons[i].substring(0,space); 
+//   }
+//   else {
+//     //just make shortenedName = walton
+//     var shortenedName = waltons[i];
+//   }
+
+//   //say goodnight to each member
+//   console.log("Good night, " + shortenedName);
+//   if (shortenedName == 'Jim') { //start checking conditionals
+//     console.log('   ...');
+//   }
+//   else if (shortenedName == 'Blue') {
+//     console.log('   hee haw!');
+//   }
+//   else if (shortenedName == 'Reckless') {
+//     console.log('   arf!');
+//   }
+//   else if (shortenedName == 'Myrtle') {
+//     console.log('   yeeeaaaoooy!');
+//   }
+//   else if (shortenedName == 'Molly') {
+//     console.log('   snort!');
+//   }
+//   else {
+//     console.log ("   G'night!");
+//   }
+// }
