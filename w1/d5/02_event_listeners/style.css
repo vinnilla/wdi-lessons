@@ -1,0 +1,19 @@
+.success {
+  background: green;
+}
+
+.info {
+  background: blue;
+}
+
+.warning {
+  background: yellow;
+}
+
+.danger {
+  background: red;
+}
+
+.numbers {
+  cursor: pointer;
+}
