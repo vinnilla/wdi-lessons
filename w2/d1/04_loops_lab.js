@@ -1,5 +1,5 @@
 // Execute this file by running node 04_loops_lab.js
-console.log('hello');
+
 // 1. Write a function that prints out the numbers from 50 to 100 by 5.
 // Output: 
 // 50 
