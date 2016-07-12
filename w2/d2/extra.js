@@ -2,6 +2,7 @@
 function palidrome(word) {
 	//set to lowercase
 	var test = word.toLowerCase();
+	//test cases:
 	//remove spaces
 	test = test.replace(/ /g, '');
 	//remove commas
@@ -36,11 +37,11 @@ function combination(word) {
 		for (var j=i+1; j<word.length+1; j++) {//+1 because slice requires the index after the end
 			//test for last character
 			if (i==word.length-1) {
-				string += word.slice(i,j);
+				string += word.substring(i,j);
 			}
 			else {
 			//concat into variable
-			string += word.slice(i,j) + ',';	
+			string += word.substring(i,j) + ',';	
 			}
 		}
 	}

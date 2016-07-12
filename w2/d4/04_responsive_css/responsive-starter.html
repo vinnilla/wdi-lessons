@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive CSS</title>
+
+	<style>
+		.column {
+			float: left;
+			width: 33%;
+		}
+
+		@media (min-width:720px) {
+			.column {
+				background-color: red;
+			}
+		}
+
+		@media (max-width:720px) {
+			.column {
+			float: none;
+				
+			}
+		}
+	</style>
+</head>
+<body>
+<header>This is a header</header>
+
+<div class="layout">
+	<div class="column">Column 1</div>
+	<div class="column">Column 2</div>
+	<div class="column">Column 3</div>
+</div>
+</body>
+</html>

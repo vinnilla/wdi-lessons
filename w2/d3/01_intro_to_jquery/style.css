@@ -1,0 +1,15 @@
+.important {
+  background: blue;
+}
+
+.warning {
+  background: orange;
+}
+
+.danger {
+  background: red;
+}
+
+.success {
+  background: green;
+}
