@@ -29,3 +29,6 @@ class ModelUno
 	end
 
 end
+
+scooter = ModelUno.new
+p scooter
