@@ -1,0 +1,931 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'learnyounode',
+1 verbose cli   '-g' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'learnyounode', null ]
+5 verbose cache add name=undefined spec="learnyounode" args=["learnyounode",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'learnyounode',
+6 verbose parsed url   path: 'learnyounode',
+6 verbose parsed url   href: 'learnyounode' }
+7 silly lockFile 8d456d9f-learnyounode learnyounode
+8 verbose lock learnyounode /home/vincent/.npm/8d456d9f-learnyounode.lock
+9 silly lockFile 8d456d9f-learnyounode learnyounode
+10 silly lockFile 8d456d9f-learnyounode learnyounode
+11 verbose addNamed [ 'learnyounode', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile a353de34-learnyounode learnyounode@
+14 verbose lock learnyounode@ /home/vincent/.npm/a353de34-learnyounode.lock
+15 silly addNameRange { name: 'learnyounode', range: '*', hasData: false }
+16 verbose url raw learnyounode
+17 verbose url resolving [ 'https://registry.npmjs.org/', './learnyounode' ]
+18 verbose url resolved https://registry.npmjs.org/learnyounode
+19 info trying registry request attempt 1 at 12:03:56
+20 http GET https://registry.npmjs.org/learnyounode
+21 http 200 https://registry.npmjs.org/learnyounode
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"6P72A0R87Y5R99DSAATSRK6QR"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '197321',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Tue, 02 Aug 2016 19:03:57 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-lax1420-LAX',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1470164636.834097,VS0,VE202',
+22 silly registry.get     vary: 'Accept-Encoding' } ]
+23 silly addNameRange number 2 { name: 'learnyounode', range: '*', hasData: true }
+24 silly addNameRange versions [ 'learnyounode',
+24 silly addNameRange   [ '0.0.0',
+24 silly addNameRange     '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.7',
+24 silly addNameRange     '0.0.8',
+24 silly addNameRange     '0.0.9',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.4',
+24 silly addNameRange     '0.2.5',
+24 silly addNameRange     '0.2.6',
+24 silly addNameRange     '0.2.7',
+24 silly addNameRange     '0.2.8',
+24 silly addNameRange     '0.2.9',
+24 silly addNameRange     '0.2.10',
+24 silly addNameRange     '0.2.11',
+24 silly addNameRange     '0.2.12',
+24 silly addNameRange     '0.2.13',
+24 silly addNameRange     '0.2.14',
+24 silly addNameRange     '0.2.15',
+24 silly addNameRange     '0.2.16',
+24 silly addNameRange     '0.2.16-mimbug',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '1.0.0-alpha01',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.0.4',
+24 silly addNameRange     '1.0.5',
+24 silly addNameRange     '1.0.6',
+24 silly addNameRange     '1.0.7',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.0.1',
+24 silly addNameRange     '2.1.0',
+24 silly addNameRange     '2.2.0',
+24 silly addNameRange     '2.2.1',
+24 silly addNameRange     '2.2.2',
+24 silly addNameRange     '2.3.0',
+24 silly addNameRange     '2.3.1',
+24 silly addNameRange     '2.3.2',
+24 silly addNameRange     '2.3.3',
+24 silly addNameRange     '2.3.4',
+24 silly addNameRange     '2.4.0',
+24 silly addNameRange     '2.5.0',
+24 silly addNameRange     '2.6.0',
+24 silly addNameRange     '2.5.1',
+24 silly addNameRange     '2.5.2',
+24 silly addNameRange     '2.7.0',
+24 silly addNameRange     '2.7.1',
+24 silly addNameRange     '2.7.2',
+24 silly addNameRange     '3.0.0',
+24 silly addNameRange     '3.0.1',
+24 silly addNameRange     '3.1.0',
+24 silly addNameRange     '3.1.1',
+24 silly addNameRange     '3.1.2',
+24 silly addNameRange     '3.1.3',
+24 silly addNameRange     '3.2.0',
+24 silly addNameRange     '3.3.0',
+24 silly addNameRange     '3.4.0',
+24 silly addNameRange     '3.4.1',
+24 silly addNameRange     '3.4.2',
+24 silly addNameRange     '3.5.0',
+24 silly addNameRange     '3.5.1',
+24 silly addNameRange     '3.5.2',
+24 silly addNameRange     '3.5.3' ] ]
+25 verbose addNamed [ 'learnyounode', '3.5.3' ]
+26 verbose addNamed [ '3.5.3', '3.5.3' ]
+27 silly lockFile fa918b9f-learnyounode-3-5-3 learnyounode@3.5.3
+28 verbose lock learnyounode@3.5.3 /home/vincent/.npm/fa918b9f-learnyounode-3-5-3.lock
+29 silly lockFile 77369f70-rnyounode-learnyounode-3-5-3-tgz https://registry.npmjs.org/learnyounode/-/learnyounode-3.5.3.tgz
+30 verbose lock https://registry.npmjs.org/learnyounode/-/learnyounode-3.5.3.tgz /home/vincent/.npm/77369f70-rnyounode-learnyounode-3-5-3-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/learnyounode/-/learnyounode-3.5.3.tgz',
+31 verbose addRemoteTarball   'c060afcd51c563e2281982bfed831fc14c6fa783' ]
+32 info retry fetch attempt 1 at 12:03:57
+33 verbose fetch to= /home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/tmp.tgz
+34 http GET https://registry.npmjs.org/learnyounode/-/learnyounode-3.5.3.tgz
+35 http 200 https://registry.npmjs.org/learnyounode/-/learnyounode-3.5.3.tgz
+36 verbose tar unpack /home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/tmp.tgz
+37 silly lockFile 33bf7ffb-37550-0-4631907099392265-package tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/package
+38 verbose lock tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/package /home/vincent/.npm/33bf7ffb-37550-0-4631907099392265-package.lock
+39 silly lockFile d6ab77da-37550-0-4631907099392265-tmp-tgz tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/tmp.tgz
+40 verbose lock tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/tmp.tgz /home/vincent/.npm/d6ab77da-37550-0-4631907099392265-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry learnyounode.js
+46 silly gunzTarPerm extractEntry exercises/http_json_api_server/exercise.js
+47 silly gunzTarPerm extractEntry exercises/http_json_api_server/solution/solution.js
+48 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.fr.md
+49 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.it.md
+50 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.ja.md
+51 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.ko.md
+52 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.md
+53 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.nb-no.md
+54 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.es.md
+55 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.pt-br.md
+56 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.ru.md
+57 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.uk.md
+58 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.vi.md
+59 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.zh-cn.md
+60 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.zh-tw.md
+61 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.pl.md
+62 silly gunzTarPerm extractEntry exercises/baby_steps/exercise.js
+63 silly gunzTarPerm extractEntry exercises/baby_steps/solution/solution.js
+64 silly gunzTarPerm extractEntry exercises/baby_steps/problem.fr.md
+65 silly gunzTarPerm extractEntry exercises/baby_steps/problem.it.md
+66 silly gunzTarPerm extractEntry exercises/baby_steps/problem.ja.md
+67 silly gunzTarPerm extractEntry exercises/baby_steps/problem.ko.md
+68 silly gunzTarPerm extractEntry exercises/baby_steps/problem.md
+69 silly gunzTarPerm extractEntry exercises/baby_steps/problem.nb-no.md
+70 silly gunzTarPerm extractEntry exercises/baby_steps/problem.es.md
+71 silly gunzTarPerm extractEntry exercises/baby_steps/problem.pt-br.md
+72 silly gunzTarPerm extractEntry exercises/baby_steps/problem.ru.md
+73 silly gunzTarPerm extractEntry exercises/baby_steps/problem.uk.md
+74 silly gunzTarPerm extractEntry exercises/baby_steps/problem.vi.md
+75 silly gunzTarPerm extractEntry exercises/baby_steps/problem.zh-cn.md
+76 silly gunzTarPerm extractEntry exercises/baby_steps/problem.zh-tw.md
+77 silly gunzTarPerm extractEntry exercises/baby_steps/problem.pl.md
+78 silly gunzTarPerm extractEntry exercises/hello_world/exercise.js
+79 silly gunzTarPerm extractEntry exercises/hello_world/solution_vi/solution.js
+80 silly gunzTarPerm extractEntry exercises/hello_world/problem.fr.md
+81 silly gunzTarPerm extractEntry exercises/hello_world/problem.it.md
+82 silly gunzTarPerm extractEntry exercises/hello_world/problem.ja.md
+83 silly gunzTarPerm extractEntry exercises/hello_world/problem.ko.md
+84 silly gunzTarPerm extractEntry exercises/hello_world/problem.md
+85 silly gunzTarPerm extractEntry exercises/hello_world/problem.nb-no.md
+86 silly gunzTarPerm extractEntry exercises/hello_world/problem.pl.md
+87 silly gunzTarPerm extractEntry exercises/hello_world/problem.pt-br.md
+88 silly gunzTarPerm extractEntry exercises/hello_world/problem.ru.md
+89 silly gunzTarPerm extractEntry exercises/hello_world/problem.es.md
+90 silly gunzTarPerm extractEntry exercises/hello_world/problem.vi.md
+91 silly gunzTarPerm extractEntry exercises/hello_world/problem.zh-cn.md
+92 silly gunzTarPerm extractEntry exercises/hello_world/problem.zh-tw.md
+93 silly gunzTarPerm extractEntry exercises/hello_world/solution/solution.js
+94 silly gunzTarPerm extractEntry exercises/hello_world/solution_fr/solution.js
+95 silly gunzTarPerm extractEntry exercises/hello_world/solution_it/solution.js
+96 silly gunzTarPerm extractEntry exercises/hello_world/solution_ja/solution.js
+97 silly gunzTarPerm extractEntry exercises/hello_world/solution_nb-no/solution.js
+98 silly gunzTarPerm extractEntry exercises/hello_world/solution_pt-br/solution.js
+99 silly gunzTarPerm extractEntry exercises/hello_world/problem.uk.md
+100 silly gunzTarPerm extractEntry exercises/http_client/exercise.js
+101 silly gunzTarPerm extractEntry exercises/http_client/solution/solution.js
+102 silly gunzTarPerm extractEntry exercises/http_client/problem.fr.md
+103 silly gunzTarPerm extractEntry exercises/http_client/problem.it.md
+104 silly gunzTarPerm extractEntry exercises/http_client/problem.ja.md
+105 silly gunzTarPerm extractEntry exercises/http_client/problem.ko.md
+106 silly gunzTarPerm extractEntry exercises/http_client/problem.md
+107 silly gunzTarPerm extractEntry exercises/http_client/problem.nb-no.md
+108 silly gunzTarPerm extractEntry exercises/http_client/problem.es.md
+109 silly gunzTarPerm extractEntry exercises/http_client/problem.pt-br.md
+110 silly gunzTarPerm extractEntry exercises/http_client/problem.ru.md
+111 silly gunzTarPerm extractEntry exercises/http_client/problem.uk.md
+112 silly gunzTarPerm extractEntry exercises/http_client/problem.vi.md
+113 silly gunzTarPerm extractEntry exercises/http_client/problem.zh-cn.md
+114 silly gunzTarPerm extractEntry exercises/http_client/problem.zh-tw.md
+115 silly gunzTarPerm extractEntry exercises/http_client/problem.pl.md
+116 silly gunzTarPerm extractEntry exercises/http_collect/exercise.js
+117 silly gunzTarPerm extractEntry exercises/http_collect/solution/solution.js
+118 silly gunzTarPerm extractEntry exercises/http_collect/problem.fr.md
+119 silly gunzTarPerm extractEntry exercises/http_collect/problem.it.md
+120 silly gunzTarPerm extractEntry exercises/http_collect/problem.ja.md
+121 silly gunzTarPerm extractEntry exercises/http_collect/problem.ko.md
+122 silly gunzTarPerm extractEntry exercises/http_collect/problem.md
+123 silly gunzTarPerm extractEntry exercises/http_collect/problem.nb-no.md
+124 silly gunzTarPerm extractEntry exercises/http_collect/problem.es.md
+125 silly gunzTarPerm extractEntry exercises/http_collect/problem.pt-br.md
+126 silly gunzTarPerm extractEntry exercises/http_collect/problem.ru.md
+127 silly gunzTarPerm extractEntry exercises/http_collect/problem.uk.md
+128 silly gunzTarPerm extractEntry exercises/http_collect/problem.vi.md
+129 silly gunzTarPerm extractEntry exercises/http_collect/problem.zh-cn.md
+130 silly gunzTarPerm extractEntry exercises/http_collect/problem.zh-tw.md
+131 silly gunzTarPerm extractEntry exercises/http_collect/problem.pl.md
+132 silly gunzTarPerm extractEntry exercises/http_file_server/exercise.js
+133 silly gunzTarPerm extractEntry exercises/http_file_server/solution/solution.js
+134 silly gunzTarPerm extractEntry exercises/http_file_server/problem.fr.md
+135 silly gunzTarPerm extractEntry exercises/http_file_server/problem.it.md
+136 silly gunzTarPerm extractEntry exercises/http_file_server/problem.ja.md
+137 silly gunzTarPerm extractEntry exercises/http_file_server/problem.ko.md
+138 silly gunzTarPerm extractEntry exercises/http_file_server/problem.md
+139 silly gunzTarPerm extractEntry exercises/http_file_server/problem.nb-no.md
+140 silly gunzTarPerm extractEntry exercises/http_file_server/problem.es.md
+141 silly gunzTarPerm extractEntry exercises/http_file_server/problem.pt-br.md
+142 silly gunzTarPerm extractEntry exercises/http_file_server/problem.ru.md
+143 silly gunzTarPerm extractEntry exercises/http_file_server/problem.uk.md
+144 silly gunzTarPerm extractEntry exercises/http_file_server/problem.vi.md
+145 silly gunzTarPerm extractEntry exercises/http_file_server/problem.zh-cn.md
+146 silly gunzTarPerm extractEntry exercises/http_file_server/problem.zh-tw.md
+147 silly gunzTarPerm extractEntry exercises/http_file_server/problem.pl.md
+148 silly gunzTarPerm extractEntry exercises/filtered_ls/exercise.js
+149 silly gunzTarPerm extractEntry exercises/filtered_ls/solution/solution.js
+150 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.es.md
+151 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.fr.md
+152 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.it.md
+153 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.ja.md
+154 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.ko.md
+155 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.md
+156 silly gunzTarPerm extractEntry exercises/filtered_ls/file-list.json
+157 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.pl.md
+158 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.pt-br.md
+159 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.ru.md
+160 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.uk.md
+161 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.vi.md
+162 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.zh-cn.md
+163 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.zh-tw.md
+164 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.nb-no.md
+165 silly gunzTarPerm extractEntry exercises/http_uppercaserer/exercise.js
+166 silly gunzTarPerm extractEntry exercises/http_uppercaserer/solution/solution.js
+167 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.fr.md
+168 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.it.md
+169 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.ja.md
+170 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.ko.md
+171 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.md
+172 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.nb-no.md
+173 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.es.md
+174 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.pt-br.md
+175 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.ru.md
+176 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.uk.md
+177 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.vi.md
+178 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.zh-cn.md
+179 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.zh-tw.md
+180 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.pl.md
+181 silly gunzTarPerm extractEntry exercises/juggling_async/exercise.js
+182 silly gunzTarPerm extractEntry exercises/juggling_async/solution/solution.js
+183 silly gunzTarPerm extractEntry exercises/juggling_async/problem.fr.md
+184 silly gunzTarPerm extractEntry exercises/juggling_async/problem.it.md
+185 silly gunzTarPerm extractEntry exercises/juggling_async/problem.ja.md
+186 silly gunzTarPerm extractEntry exercises/juggling_async/problem.ko.md
+187 silly gunzTarPerm extractEntry exercises/juggling_async/problem.md
+188 silly gunzTarPerm extractEntry exercises/juggling_async/problem.nb-no.md
+189 silly gunzTarPerm extractEntry exercises/juggling_async/problem.es.md
+190 silly gunzTarPerm extractEntry exercises/juggling_async/problem.pt-br.md
+191 silly gunzTarPerm extractEntry exercises/juggling_async/problem.ru.md
+192 silly gunzTarPerm extractEntry exercises/juggling_async/problem.uk.md
+193 silly gunzTarPerm extractEntry exercises/juggling_async/problem.vi.md
+194 silly gunzTarPerm extractEntry exercises/juggling_async/problem.zh-cn.md
+195 silly gunzTarPerm extractEntry exercises/juggling_async/problem.zh-tw.md
+196 silly gunzTarPerm extractEntry exercises/juggling_async/problem.pl.md
+197 silly gunzTarPerm extractEntry exercises/make_it_modular/exercise.js
+198 silly gunzTarPerm extractEntry exercises/make_it_modular/verify.js
+199 silly gunzTarPerm extractEntry exercises/make_it_modular/wrap-requires.js
+200 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.ru.md
+201 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.it.md
+202 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.ko.md
+203 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.md
+204 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.nb-no.md
+205 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.pl.md
+206 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.es.md
+207 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.ja.md
+208 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.uk.md
+209 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.vi.md
+210 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.zh-cn.md
+211 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.zh-tw.md
+212 silly gunzTarPerm extractEntry exercises/make_it_modular/solution/solution.js
+213 silly gunzTarPerm extractEntry exercises/make_it_modular/solution/solution_filter.js
+214 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.fr.md
+215 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.pt-br.md
+216 silly gunzTarPerm extractEntry exercises/my_first_async_io/exercise.js
+217 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_zh-tw/solution.js
+218 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.fr.md
+219 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.it.md
+220 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.ja.md
+221 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.ko.md
+222 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.md
+223 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.nb-no.md
+224 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.pl.md
+225 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.pt-br.md
+226 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.ru.md
+227 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.uk.md
+228 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.es.md
+229 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.zh-cn.md
+230 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.zh-tw.md
+231 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution/solution.js
+232 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_es/solution.js
+233 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_fr/solution.js
+234 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_it/solution.js
+235 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_ja/solution.js
+236 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_nb-no/solution.js
+237 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_uk/solution.js
+238 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_vi/solution.js
+239 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_zh-cn/solution.js
+240 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.vi.md
+241 silly gunzTarPerm extractEntry exercises/my_first_io/exercise.js
+242 silly gunzTarPerm extractEntry exercises/my_first_io/wrap.js
+243 silly gunzTarPerm extractEntry exercises/my_first_io/problem.zh-cn.md
+244 silly gunzTarPerm extractEntry exercises/my_first_io/problem.fr.md
+245 silly gunzTarPerm extractEntry exercises/my_first_io/problem.ja.md
+246 silly gunzTarPerm extractEntry exercises/my_first_io/problem.ko.md
+247 silly gunzTarPerm extractEntry exercises/my_first_io/problem.md
+248 silly gunzTarPerm extractEntry exercises/my_first_io/problem.nb-no.md
+249 silly gunzTarPerm extractEntry exercises/my_first_io/problem.pl.md
+250 silly gunzTarPerm extractEntry exercises/my_first_io/problem.pt-br.md
+251 silly gunzTarPerm extractEntry exercises/my_first_io/problem.ru.md
+252 silly gunzTarPerm extractEntry exercises/my_first_io/problem.uk.md
+253 silly gunzTarPerm extractEntry exercises/my_first_io/problem.es.md
+254 silly gunzTarPerm extractEntry exercises/my_first_io/problem.it.md
+255 silly gunzTarPerm extractEntry exercises/my_first_io/problem.zh-tw.md
+256 silly gunzTarPerm extractEntry exercises/my_first_io/solution/solution.js
+257 silly gunzTarPerm extractEntry exercises/my_first_io/solution_fr/solution.js
+258 silly gunzTarPerm extractEntry exercises/my_first_io/solution_it/solution.js
+259 silly gunzTarPerm extractEntry exercises/my_first_io/solution_ja/solution.js
+260 silly gunzTarPerm extractEntry exercises/my_first_io/solution_nb-no/solution.js
+261 silly gunzTarPerm extractEntry exercises/my_first_io/solution_uk/solution.js
+262 silly gunzTarPerm extractEntry exercises/my_first_io/solution_vi/solution.js
+263 silly gunzTarPerm extractEntry exercises/my_first_io/solution_zh-cn/solution.js
+264 silly gunzTarPerm extractEntry exercises/my_first_io/solution_zh-tw/solution.js
+265 silly gunzTarPerm extractEntry exercises/my_first_io/problem.vi.md
+266 silly gunzTarPerm extractEntry exercises/time_server/exercise.js
+267 silly gunzTarPerm extractEntry exercises/time_server/solution/solution.js
+268 silly gunzTarPerm extractEntry exercises/time_server/problem.fr.md
+269 silly gunzTarPerm extractEntry exercises/time_server/problem.it.md
+270 silly gunzTarPerm extractEntry exercises/time_server/problem.ja.md
+271 silly gunzTarPerm extractEntry exercises/time_server/problem.ko.md
+272 silly gunzTarPerm extractEntry exercises/time_server/problem.md
+273 silly gunzTarPerm extractEntry exercises/time_server/problem.nb-no.md
+274 silly gunzTarPerm extractEntry exercises/time_server/problem.es.md
+275 silly gunzTarPerm extractEntry exercises/time_server/problem.pt-br.md
+276 silly gunzTarPerm extractEntry exercises/time_server/problem.ru.md
+277 silly gunzTarPerm extractEntry exercises/time_server/problem.uk.md
+278 silly gunzTarPerm extractEntry exercises/time_server/problem.vi.md
+279 silly gunzTarPerm extractEntry exercises/time_server/problem.zh-cn.md
+280 silly gunzTarPerm extractEntry exercises/time_server/problem.zh-tw.md
+281 silly gunzTarPerm extractEntry exercises/time_server/problem.pl.md
+282 silly gunzTarPerm extractEntry README.vi.md
+283 silly gunzTarPerm extractEntry bin/learnyounode
+284 silly gunzTarPerm extractEntry docs/bl.html
+285 silly gunzTarPerm extractEntry docs/concat-stream.html
+286 silly gunzTarPerm extractEntry docs/through2-map.html
+287 silly gunzTarPerm extractEntry .travis.yml
+288 silly gunzTarPerm extractEntry i18n/nb-no.json
+289 silly gunzTarPerm extractEntry i18n/credits/it.txt
+290 silly gunzTarPerm extractEntry i18n/es.json
+291 silly gunzTarPerm extractEntry i18n/fr.json
+292 silly gunzTarPerm extractEntry i18n/it.json
+293 silly gunzTarPerm extractEntry i18n/ja.json
+294 silly gunzTarPerm extractEntry i18n/ko.json
+295 silly gunzTarPerm extractEntry i18n/en.json
+296 silly gunzTarPerm extractEntry i18n/pl.json
+297 silly gunzTarPerm extractEntry i18n/pt-br.json
+298 silly gunzTarPerm extractEntry i18n/ru.json
+299 silly gunzTarPerm extractEntry i18n/uk.json
+300 silly gunzTarPerm extractEntry i18n/vi.json
+301 silly gunzTarPerm extractEntry i18n/zh-cn.json
+302 silly gunzTarPerm extractEntry i18n/zh-tw.json
+303 silly gunzTarPerm extractEntry LICENSE.md
+304 silly gunzTarPerm extractEntry lib/rndport.js
+305 silly gunzTarPerm extractEntry node_apidoc/index.html
+306 silly gunzTarPerm extractEntry node_apidoc/_toc.html
+307 silly gunzTarPerm extractEntry node_apidoc/all.html
+308 silly gunzTarPerm extractEntry node_apidoc/assert.html
+309 silly gunzTarPerm extractEntry node_apidoc/assets/joyent-footer.svg
+310 silly gunzTarPerm extractEntry node_apidoc/assets/logo.svg
+311 silly gunzTarPerm extractEntry node_apidoc/assets/sh.css
+312 silly gunzTarPerm extractEntry node_apidoc/assets/style.css
+313 silly gunzTarPerm extractEntry node_apidoc/buffer.html
+314 silly gunzTarPerm extractEntry node_apidoc/child_process.html
+315 silly gunzTarPerm extractEntry node_apidoc/cluster.html
+316 silly gunzTarPerm extractEntry node_apidoc/console.html
+317 silly gunzTarPerm extractEntry node_apidoc/crypto.html
+318 silly gunzTarPerm extractEntry node_apidoc/debugger.html
+319 silly gunzTarPerm extractEntry node_apidoc/dgram.html
+320 silly gunzTarPerm extractEntry node_apidoc/dns.html
+321 silly gunzTarPerm extractEntry node_apidoc/documentation.html
+322 silly gunzTarPerm extractEntry node_apidoc/domain.html
+323 silly gunzTarPerm extractEntry node_apidoc/events.html
+324 silly gunzTarPerm extractEntry node_apidoc/fs.html
+325 silly gunzTarPerm extractEntry node_apidoc/globals.html
+326 silly gunzTarPerm extractEntry node_apidoc/http.html
+327 silly gunzTarPerm extractEntry node_apidoc/https.html
+328 silly gunzTarPerm extractEntry node_apidoc/addons.html
+329 silly gunzTarPerm extractEntry node_apidoc/modules.html
+330 silly gunzTarPerm extractEntry node_apidoc/net.html
+331 silly gunzTarPerm extractEntry node_apidoc/os.html
+332 silly gunzTarPerm extractEntry node_apidoc/path.html
+333 silly gunzTarPerm extractEntry node_apidoc/process.html
+334 silly gunzTarPerm extractEntry node_apidoc/punycode.html
+335 silly gunzTarPerm extractEntry node_apidoc/querystring.html
+336 silly gunzTarPerm extractEntry node_apidoc/readline.html
+337 silly gunzTarPerm extractEntry node_apidoc/repl.html
+338 silly gunzTarPerm extractEntry node_apidoc/stream.html
+339 silly gunzTarPerm extractEntry node_apidoc/string_decoder.html
+340 silly gunzTarPerm extractEntry node_apidoc/synopsis.html
+341 silly gunzTarPerm extractEntry node_apidoc/timers.html
+342 silly gunzTarPerm extractEntry node_apidoc/tls.html
+343 silly gunzTarPerm extractEntry node_apidoc/tty.html
+344 silly gunzTarPerm extractEntry node_apidoc/url.html
+345 silly gunzTarPerm extractEntry node_apidoc/util.html
+346 silly gunzTarPerm extractEntry node_apidoc/vm.html
+347 silly gunzTarPerm extractEntry node_apidoc/zlib.html
+348 silly gunzTarPerm extractEntry .jshintrc
+349 silly gunzTarPerm extractEntry ~/.workshopper-test/storage/.config/learnyounode/lang.json
+350 silly gunzTarPerm extractEntry ~/.workshopper-test/storage/.config/workshopper/lang.json
+351 silly lockFile 33bf7ffb-37550-0-4631907099392265-package tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/package
+352 silly lockFile 33bf7ffb-37550-0-4631907099392265-package tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/package
+353 silly lockFile d6ab77da-37550-0-4631907099392265-tmp-tgz tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/tmp.tgz
+354 silly lockFile d6ab77da-37550-0-4631907099392265-tmp-tgz tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/tmp.tgz
+355 verbose tar pack [ '/home/vincent/.npm/learnyounode/3.5.3/package.tgz',
+355 verbose tar pack   '/home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/package' ]
+356 verbose tarball /home/vincent/.npm/learnyounode/3.5.3/package.tgz
+357 verbose folder /home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/package
+358 silly lockFile 33bf7ffb-37550-0-4631907099392265-package tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/package
+359 verbose lock tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/package /home/vincent/.npm/33bf7ffb-37550-0-4631907099392265-package.lock
+360 silly lockFile bb28b739-m-learnyounode-3-5-3-package-tgz tar:///home/vincent/.npm/learnyounode/3.5.3/package.tgz
+361 verbose lock tar:///home/vincent/.npm/learnyounode/3.5.3/package.tgz /home/vincent/.npm/bb28b739-m-learnyounode-3-5-3-package-tgz.lock
+362 silly lockFile 33bf7ffb-37550-0-4631907099392265-package tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/package
+363 silly lockFile 33bf7ffb-37550-0-4631907099392265-package tar:///home/vincent/tmp/npm-25507-Lk2jAv21/1470164637550-0.4631907099392265/package
+364 silly lockFile bb28b739-m-learnyounode-3-5-3-package-tgz tar:///home/vincent/.npm/learnyounode/3.5.3/package.tgz
+365 silly lockFile bb28b739-m-learnyounode-3-5-3-package-tgz tar:///home/vincent/.npm/learnyounode/3.5.3/package.tgz
+366 silly lockFile c9760646-t-npm-learnyounode-3-5-3-package /home/vincent/.npm/learnyounode/3.5.3/package
+367 verbose lock /home/vincent/.npm/learnyounode/3.5.3/package /home/vincent/.npm/c9760646-t-npm-learnyounode-3-5-3-package.lock
+368 silly lockFile c9760646-t-npm-learnyounode-3-5-3-package /home/vincent/.npm/learnyounode/3.5.3/package
+369 silly lockFile c9760646-t-npm-learnyounode-3-5-3-package /home/vincent/.npm/learnyounode/3.5.3/package
+370 verbose tar unpack /home/vincent/.npm/learnyounode/3.5.3/package.tgz
+371 silly lockFile 8ae963d9-t-npm-learnyounode-3-5-3-package tar:///home/vincent/.npm/learnyounode/3.5.3/package
+372 verbose lock tar:///home/vincent/.npm/learnyounode/3.5.3/package /home/vincent/.npm/8ae963d9-t-npm-learnyounode-3-5-3-package.lock
+373 silly lockFile bb28b739-m-learnyounode-3-5-3-package-tgz tar:///home/vincent/.npm/learnyounode/3.5.3/package.tgz
+374 verbose lock tar:///home/vincent/.npm/learnyounode/3.5.3/package.tgz /home/vincent/.npm/bb28b739-m-learnyounode-3-5-3-package-tgz.lock
+375 silly gunzTarPerm modes [ '755', '644' ]
+376 silly gunzTarPerm extractEntry package.json
+377 silly gunzTarPerm extractEntry .npmignore
+378 silly gunzTarPerm extractEntry README.md
+379 silly gunzTarPerm extractEntry learnyounode.js
+380 silly gunzTarPerm extractEntry docs/bl.html
+381 silly gunzTarPerm extractEntry docs/concat-stream.html
+382 silly gunzTarPerm extractEntry docs/through2-map.html
+383 silly gunzTarPerm extractEntry README.vi.md
+384 silly gunzTarPerm extractEntry bin/learnyounode
+385 silly gunzTarPerm extractEntry .travis.yml
+386 silly gunzTarPerm extractEntry exercises/http_json_api_server/exercise.js
+387 silly gunzTarPerm extractEntry exercises/http_json_api_server/solution/solution.js
+388 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.fr.md
+389 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.it.md
+390 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.ja.md
+391 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.ko.md
+392 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.md
+393 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.nb-no.md
+394 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.es.md
+395 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.pt-br.md
+396 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.ru.md
+397 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.uk.md
+398 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.vi.md
+399 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.zh-cn.md
+400 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.zh-tw.md
+401 silly gunzTarPerm extractEntry exercises/http_json_api_server/problem.pl.md
+402 silly gunzTarPerm extractEntry exercises/baby_steps/exercise.js
+403 silly gunzTarPerm extractEntry exercises/baby_steps/solution/solution.js
+404 silly gunzTarPerm extractEntry exercises/baby_steps/problem.fr.md
+405 silly gunzTarPerm extractEntry exercises/baby_steps/problem.it.md
+406 silly gunzTarPerm extractEntry exercises/baby_steps/problem.ja.md
+407 silly gunzTarPerm extractEntry exercises/baby_steps/problem.ko.md
+408 silly gunzTarPerm extractEntry exercises/baby_steps/problem.md
+409 silly gunzTarPerm extractEntry exercises/baby_steps/problem.nb-no.md
+410 silly gunzTarPerm extractEntry exercises/baby_steps/problem.es.md
+411 silly gunzTarPerm extractEntry exercises/baby_steps/problem.pt-br.md
+412 silly gunzTarPerm extractEntry exercises/baby_steps/problem.ru.md
+413 silly gunzTarPerm extractEntry exercises/baby_steps/problem.uk.md
+414 silly gunzTarPerm extractEntry exercises/baby_steps/problem.vi.md
+415 silly gunzTarPerm extractEntry exercises/baby_steps/problem.zh-cn.md
+416 silly gunzTarPerm extractEntry exercises/baby_steps/problem.zh-tw.md
+417 silly gunzTarPerm extractEntry exercises/baby_steps/problem.pl.md
+418 silly gunzTarPerm extractEntry exercises/hello_world/exercise.js
+419 silly gunzTarPerm extractEntry exercises/hello_world/solution_vi/solution.js
+420 silly gunzTarPerm extractEntry exercises/hello_world/problem.fr.md
+421 silly gunzTarPerm extractEntry exercises/hello_world/problem.it.md
+422 silly gunzTarPerm extractEntry exercises/hello_world/problem.ja.md
+423 silly gunzTarPerm extractEntry exercises/hello_world/problem.ko.md
+424 silly gunzTarPerm extractEntry exercises/hello_world/problem.md
+425 silly gunzTarPerm extractEntry exercises/hello_world/problem.nb-no.md
+426 silly gunzTarPerm extractEntry exercises/hello_world/problem.pl.md
+427 silly gunzTarPerm extractEntry exercises/hello_world/problem.pt-br.md
+428 silly gunzTarPerm extractEntry exercises/hello_world/problem.ru.md
+429 silly gunzTarPerm extractEntry exercises/hello_world/problem.es.md
+430 silly gunzTarPerm extractEntry exercises/hello_world/problem.vi.md
+431 silly gunzTarPerm extractEntry exercises/hello_world/problem.zh-cn.md
+432 silly gunzTarPerm extractEntry exercises/hello_world/problem.zh-tw.md
+433 silly gunzTarPerm extractEntry exercises/hello_world/solution/solution.js
+434 silly gunzTarPerm extractEntry exercises/hello_world/solution_fr/solution.js
+435 silly gunzTarPerm extractEntry exercises/hello_world/solution_it/solution.js
+436 silly gunzTarPerm extractEntry exercises/hello_world/solution_ja/solution.js
+437 silly gunzTarPerm extractEntry exercises/hello_world/solution_nb-no/solution.js
+438 silly gunzTarPerm extractEntry exercises/hello_world/solution_pt-br/solution.js
+439 silly gunzTarPerm extractEntry exercises/hello_world/problem.uk.md
+440 silly gunzTarPerm extractEntry exercises/http_client/exercise.js
+441 silly gunzTarPerm extractEntry exercises/http_client/solution/solution.js
+442 silly gunzTarPerm extractEntry exercises/http_client/problem.fr.md
+443 silly gunzTarPerm extractEntry exercises/http_client/problem.it.md
+444 silly gunzTarPerm extractEntry exercises/http_client/problem.ja.md
+445 silly gunzTarPerm extractEntry exercises/http_client/problem.ko.md
+446 silly gunzTarPerm extractEntry exercises/http_client/problem.md
+447 silly gunzTarPerm extractEntry exercises/http_client/problem.nb-no.md
+448 silly gunzTarPerm extractEntry exercises/http_client/problem.es.md
+449 silly gunzTarPerm extractEntry exercises/http_client/problem.pt-br.md
+450 silly gunzTarPerm extractEntry exercises/http_client/problem.ru.md
+451 silly gunzTarPerm extractEntry exercises/http_client/problem.uk.md
+452 silly gunzTarPerm extractEntry exercises/http_client/problem.vi.md
+453 silly gunzTarPerm extractEntry exercises/http_client/problem.zh-cn.md
+454 silly gunzTarPerm extractEntry exercises/http_client/problem.zh-tw.md
+455 silly gunzTarPerm extractEntry exercises/http_client/problem.pl.md
+456 silly gunzTarPerm extractEntry exercises/http_collect/exercise.js
+457 silly gunzTarPerm extractEntry exercises/http_collect/solution/solution.js
+458 silly gunzTarPerm extractEntry exercises/http_collect/problem.fr.md
+459 silly gunzTarPerm extractEntry exercises/http_collect/problem.it.md
+460 silly gunzTarPerm extractEntry exercises/http_collect/problem.ja.md
+461 silly gunzTarPerm extractEntry exercises/http_collect/problem.ko.md
+462 silly gunzTarPerm extractEntry exercises/http_collect/problem.md
+463 silly gunzTarPerm extractEntry exercises/http_collect/problem.nb-no.md
+464 silly gunzTarPerm extractEntry exercises/http_collect/problem.es.md
+465 silly gunzTarPerm extractEntry exercises/http_collect/problem.pt-br.md
+466 silly gunzTarPerm extractEntry exercises/http_collect/problem.ru.md
+467 silly gunzTarPerm extractEntry exercises/http_collect/problem.uk.md
+468 silly gunzTarPerm extractEntry exercises/http_collect/problem.vi.md
+469 silly gunzTarPerm extractEntry exercises/http_collect/problem.zh-cn.md
+470 silly gunzTarPerm extractEntry exercises/http_collect/problem.zh-tw.md
+471 silly gunzTarPerm extractEntry exercises/http_collect/problem.pl.md
+472 silly gunzTarPerm extractEntry exercises/http_file_server/exercise.js
+473 silly gunzTarPerm extractEntry exercises/http_file_server/solution/solution.js
+474 silly gunzTarPerm extractEntry exercises/http_file_server/problem.fr.md
+475 silly gunzTarPerm extractEntry exercises/http_file_server/problem.it.md
+476 silly gunzTarPerm extractEntry exercises/http_file_server/problem.ja.md
+477 silly gunzTarPerm extractEntry exercises/http_file_server/problem.ko.md
+478 silly gunzTarPerm extractEntry exercises/http_file_server/problem.md
+479 silly gunzTarPerm extractEntry exercises/http_file_server/problem.nb-no.md
+480 silly gunzTarPerm extractEntry exercises/http_file_server/problem.es.md
+481 silly gunzTarPerm extractEntry exercises/http_file_server/problem.pt-br.md
+482 silly gunzTarPerm extractEntry exercises/http_file_server/problem.ru.md
+483 silly gunzTarPerm extractEntry exercises/http_file_server/problem.uk.md
+484 silly gunzTarPerm extractEntry exercises/http_file_server/problem.vi.md
+485 silly gunzTarPerm extractEntry exercises/http_file_server/problem.zh-cn.md
+486 silly gunzTarPerm extractEntry exercises/http_file_server/problem.zh-tw.md
+487 silly gunzTarPerm extractEntry exercises/http_file_server/problem.pl.md
+488 silly gunzTarPerm extractEntry exercises/filtered_ls/exercise.js
+489 silly gunzTarPerm extractEntry exercises/filtered_ls/solution/solution.js
+490 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.es.md
+491 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.fr.md
+492 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.it.md
+493 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.ja.md
+494 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.ko.md
+495 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.md
+496 silly gunzTarPerm extractEntry exercises/filtered_ls/file-list.json
+497 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.pl.md
+498 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.pt-br.md
+499 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.ru.md
+500 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.uk.md
+501 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.vi.md
+502 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.zh-cn.md
+503 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.zh-tw.md
+504 silly gunzTarPerm extractEntry exercises/filtered_ls/problem.nb-no.md
+505 silly gunzTarPerm extractEntry exercises/http_uppercaserer/exercise.js
+506 silly gunzTarPerm extractEntry exercises/http_uppercaserer/solution/solution.js
+507 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.fr.md
+508 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.it.md
+509 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.ja.md
+510 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.ko.md
+511 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.md
+512 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.nb-no.md
+513 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.es.md
+514 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.pt-br.md
+515 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.ru.md
+516 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.uk.md
+517 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.vi.md
+518 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.zh-cn.md
+519 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.zh-tw.md
+520 silly gunzTarPerm extractEntry exercises/http_uppercaserer/problem.pl.md
+521 silly gunzTarPerm extractEntry exercises/juggling_async/exercise.js
+522 silly gunzTarPerm extractEntry exercises/juggling_async/solution/solution.js
+523 silly gunzTarPerm extractEntry exercises/juggling_async/problem.fr.md
+524 silly gunzTarPerm extractEntry exercises/juggling_async/problem.it.md
+525 silly gunzTarPerm extractEntry exercises/juggling_async/problem.ja.md
+526 silly gunzTarPerm extractEntry exercises/juggling_async/problem.ko.md
+527 silly gunzTarPerm extractEntry exercises/juggling_async/problem.md
+528 silly gunzTarPerm extractEntry exercises/juggling_async/problem.nb-no.md
+529 silly gunzTarPerm extractEntry exercises/juggling_async/problem.es.md
+530 silly gunzTarPerm extractEntry exercises/juggling_async/problem.pt-br.md
+531 silly gunzTarPerm extractEntry exercises/juggling_async/problem.ru.md
+532 silly gunzTarPerm extractEntry exercises/juggling_async/problem.uk.md
+533 silly gunzTarPerm extractEntry exercises/juggling_async/problem.vi.md
+534 silly gunzTarPerm extractEntry exercises/juggling_async/problem.zh-cn.md
+535 silly gunzTarPerm extractEntry exercises/juggling_async/problem.zh-tw.md
+536 silly gunzTarPerm extractEntry exercises/juggling_async/problem.pl.md
+537 silly gunzTarPerm extractEntry exercises/make_it_modular/exercise.js
+538 silly gunzTarPerm extractEntry exercises/make_it_modular/verify.js
+539 silly gunzTarPerm extractEntry exercises/make_it_modular/wrap-requires.js
+540 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.ru.md
+541 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.it.md
+542 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.ko.md
+543 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.md
+544 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.nb-no.md
+545 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.pl.md
+546 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.es.md
+547 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.ja.md
+548 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.uk.md
+549 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.vi.md
+550 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.zh-cn.md
+551 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.zh-tw.md
+552 silly gunzTarPerm extractEntry exercises/make_it_modular/solution/solution.js
+553 silly gunzTarPerm extractEntry exercises/make_it_modular/solution/solution_filter.js
+554 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.fr.md
+555 silly gunzTarPerm extractEntry exercises/make_it_modular/problem.pt-br.md
+556 silly gunzTarPerm extractEntry exercises/my_first_async_io/exercise.js
+557 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_zh-tw/solution.js
+558 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.fr.md
+559 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.it.md
+560 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.ja.md
+561 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.ko.md
+562 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.md
+563 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.nb-no.md
+564 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.pl.md
+565 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.pt-br.md
+566 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.ru.md
+567 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.uk.md
+568 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.es.md
+569 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.zh-cn.md
+570 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.zh-tw.md
+571 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution/solution.js
+572 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_es/solution.js
+573 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_fr/solution.js
+574 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_it/solution.js
+575 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_ja/solution.js
+576 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_nb-no/solution.js
+577 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_uk/solution.js
+578 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_vi/solution.js
+579 silly gunzTarPerm extractEntry exercises/my_first_async_io/solution_zh-cn/solution.js
+580 silly gunzTarPerm extractEntry exercises/my_first_async_io/problem.vi.md
+581 silly gunzTarPerm extractEntry exercises/my_first_io/exercise.js
+582 silly gunzTarPerm extractEntry exercises/my_first_io/wrap.js
+583 silly gunzTarPerm extractEntry exercises/my_first_io/problem.zh-cn.md
+584 silly gunzTarPerm extractEntry exercises/my_first_io/problem.fr.md
+585 silly gunzTarPerm extractEntry exercises/my_first_io/problem.ja.md
+586 silly gunzTarPerm extractEntry exercises/my_first_io/problem.ko.md
+587 silly gunzTarPerm extractEntry exercises/my_first_io/problem.md
+588 silly gunzTarPerm extractEntry exercises/my_first_io/problem.nb-no.md
+589 silly gunzTarPerm extractEntry exercises/my_first_io/problem.pl.md
+590 silly gunzTarPerm extractEntry exercises/my_first_io/problem.pt-br.md
+591 silly gunzTarPerm extractEntry exercises/my_first_io/problem.ru.md
+592 silly gunzTarPerm extractEntry exercises/my_first_io/problem.uk.md
+593 silly gunzTarPerm extractEntry exercises/my_first_io/problem.es.md
+594 silly gunzTarPerm extractEntry exercises/my_first_io/problem.it.md
+595 silly gunzTarPerm extractEntry exercises/my_first_io/problem.zh-tw.md
+596 silly gunzTarPerm extractEntry exercises/my_first_io/solution/solution.js
+597 silly gunzTarPerm extractEntry exercises/my_first_io/solution_fr/solution.js
+598 silly gunzTarPerm extractEntry exercises/my_first_io/solution_it/solution.js
+599 silly gunzTarPerm extractEntry exercises/my_first_io/solution_ja/solution.js
+600 silly gunzTarPerm extractEntry exercises/my_first_io/solution_nb-no/solution.js
+601 silly gunzTarPerm extractEntry exercises/my_first_io/solution_uk/solution.js
+602 silly gunzTarPerm extractEntry exercises/my_first_io/solution_vi/solution.js
+603 silly gunzTarPerm extractEntry exercises/my_first_io/solution_zh-cn/solution.js
+604 silly gunzTarPerm extractEntry exercises/my_first_io/solution_zh-tw/solution.js
+605 silly gunzTarPerm extractEntry exercises/my_first_io/problem.vi.md
+606 silly gunzTarPerm extractEntry exercises/time_server/exercise.js
+607 silly gunzTarPerm extractEntry exercises/time_server/solution/solution.js
+608 silly gunzTarPerm extractEntry exercises/time_server/problem.fr.md
+609 silly gunzTarPerm extractEntry exercises/time_server/problem.it.md
+610 silly gunzTarPerm extractEntry exercises/time_server/problem.ja.md
+611 silly gunzTarPerm extractEntry exercises/time_server/problem.ko.md
+612 silly gunzTarPerm extractEntry exercises/time_server/problem.md
+613 silly gunzTarPerm extractEntry exercises/time_server/problem.nb-no.md
+614 silly gunzTarPerm extractEntry exercises/time_server/problem.es.md
+615 silly gunzTarPerm extractEntry exercises/time_server/problem.pt-br.md
+616 silly gunzTarPerm extractEntry exercises/time_server/problem.ru.md
+617 silly gunzTarPerm extractEntry exercises/time_server/problem.uk.md
+618 silly gunzTarPerm extractEntry exercises/time_server/problem.vi.md
+619 silly gunzTarPerm extractEntry exercises/time_server/problem.zh-cn.md
+620 silly gunzTarPerm extractEntry exercises/time_server/problem.zh-tw.md
+621 silly gunzTarPerm extractEntry exercises/time_server/problem.pl.md
+622 silly gunzTarPerm extractEntry i18n/nb-no.json
+623 silly gunzTarPerm extractEntry i18n/credits/it.txt
+624 silly gunzTarPerm extractEntry i18n/es.json
+625 silly gunzTarPerm extractEntry i18n/fr.json
+626 silly gunzTarPerm extractEntry i18n/it.json
+627 silly gunzTarPerm extractEntry i18n/ja.json
+628 silly gunzTarPerm extractEntry i18n/ko.json
+629 silly gunzTarPerm extractEntry i18n/en.json
+630 silly gunzTarPerm extractEntry i18n/pl.json
+631 silly gunzTarPerm extractEntry i18n/pt-br.json
+632 silly gunzTarPerm extractEntry i18n/ru.json
+633 silly gunzTarPerm extractEntry i18n/uk.json
+634 silly gunzTarPerm extractEntry i18n/vi.json
+635 silly gunzTarPerm extractEntry i18n/zh-cn.json
+636 silly gunzTarPerm extractEntry i18n/zh-tw.json
+637 silly gunzTarPerm extractEntry LICENSE.md
+638 silly gunzTarPerm extractEntry lib/rndport.js
+639 silly gunzTarPerm extractEntry node_apidoc/index.html
+640 silly gunzTarPerm extractEntry node_apidoc/_toc.html
+641 silly gunzTarPerm extractEntry node_apidoc/all.html
+642 silly gunzTarPerm extractEntry node_apidoc/assert.html
+643 silly gunzTarPerm extractEntry node_apidoc/assets/joyent-footer.svg
+644 silly gunzTarPerm extractEntry node_apidoc/assets/logo.svg
+645 silly gunzTarPerm extractEntry node_apidoc/assets/sh.css
+646 silly gunzTarPerm extractEntry node_apidoc/assets/style.css
+647 silly gunzTarPerm extractEntry node_apidoc/buffer.html
+648 silly gunzTarPerm extractEntry node_apidoc/child_process.html
+649 silly gunzTarPerm extractEntry node_apidoc/cluster.html
+650 silly gunzTarPerm extractEntry node_apidoc/console.html
+651 silly gunzTarPerm extractEntry node_apidoc/crypto.html
+652 silly gunzTarPerm extractEntry node_apidoc/debugger.html
+653 silly gunzTarPerm extractEntry node_apidoc/dgram.html
+654 silly gunzTarPerm extractEntry node_apidoc/dns.html
+655 silly gunzTarPerm extractEntry node_apidoc/documentation.html
+656 silly gunzTarPerm extractEntry node_apidoc/domain.html
+657 silly gunzTarPerm extractEntry node_apidoc/events.html
+658 silly gunzTarPerm extractEntry node_apidoc/fs.html
+659 silly gunzTarPerm extractEntry node_apidoc/globals.html
+660 silly gunzTarPerm extractEntry node_apidoc/http.html
+661 silly gunzTarPerm extractEntry node_apidoc/https.html
+662 silly gunzTarPerm extractEntry node_apidoc/addons.html
+663 silly gunzTarPerm extractEntry node_apidoc/modules.html
+664 silly gunzTarPerm extractEntry node_apidoc/net.html
+665 silly gunzTarPerm extractEntry node_apidoc/os.html
+666 silly gunzTarPerm extractEntry node_apidoc/path.html
+667 silly gunzTarPerm extractEntry node_apidoc/process.html
+668 silly gunzTarPerm extractEntry node_apidoc/punycode.html
+669 silly gunzTarPerm extractEntry node_apidoc/querystring.html
+670 silly gunzTarPerm extractEntry node_apidoc/readline.html
+671 silly gunzTarPerm extractEntry node_apidoc/repl.html
+672 silly gunzTarPerm extractEntry node_apidoc/stream.html
+673 silly gunzTarPerm extractEntry node_apidoc/string_decoder.html
+674 silly gunzTarPerm extractEntry node_apidoc/synopsis.html
+675 silly gunzTarPerm extractEntry node_apidoc/timers.html
+676 silly gunzTarPerm extractEntry node_apidoc/tls.html
+677 silly gunzTarPerm extractEntry node_apidoc/tty.html
+678 silly gunzTarPerm extractEntry node_apidoc/url.html
+679 silly gunzTarPerm extractEntry node_apidoc/util.html
+680 silly gunzTarPerm extractEntry node_apidoc/vm.html
+681 silly gunzTarPerm extractEntry node_apidoc/zlib.html
+682 silly gunzTarPerm extractEntry .jshintrc
+683 silly gunzTarPerm extractEntry ~/.workshopper-test/storage/.config/learnyounode/lang.json
+684 silly gunzTarPerm extractEntry ~/.workshopper-test/storage/.config/workshopper/lang.json
+685 silly lockFile 8ae963d9-t-npm-learnyounode-3-5-3-package tar:///home/vincent/.npm/learnyounode/3.5.3/package
+686 silly lockFile 8ae963d9-t-npm-learnyounode-3-5-3-package tar:///home/vincent/.npm/learnyounode/3.5.3/package
+687 silly lockFile bb28b739-m-learnyounode-3-5-3-package-tgz tar:///home/vincent/.npm/learnyounode/3.5.3/package.tgz
+688 silly lockFile bb28b739-m-learnyounode-3-5-3-package-tgz tar:///home/vincent/.npm/learnyounode/3.5.3/package.tgz
+689 verbose chmod /home/vincent/.npm/learnyounode/3.5.3/package.tgz 644
+690 verbose chown /home/vincent/.npm/learnyounode/3.5.3/package.tgz [ 1000, 1000 ]
+691 silly lockFile 77369f70-rnyounode-learnyounode-3-5-3-tgz https://registry.npmjs.org/learnyounode/-/learnyounode-3.5.3.tgz
+692 silly lockFile 77369f70-rnyounode-learnyounode-3-5-3-tgz https://registry.npmjs.org/learnyounode/-/learnyounode-3.5.3.tgz
+693 silly lockFile fa918b9f-learnyounode-3-5-3 learnyounode@3.5.3
+694 silly lockFile fa918b9f-learnyounode-3-5-3 learnyounode@3.5.3
+695 silly lockFile a353de34-learnyounode learnyounode@
+696 silly lockFile a353de34-learnyounode learnyounode@
+697 silly resolved [ { name: 'learnyounode',
+697 silly resolved     version: '3.5.3',
+697 silly resolved     description: 'Learn You The Node.js For Much Win! An intro to Node.js via a set of self-guided workshops.',
+697 silly resolved     author:
+697 silly resolved      { name: 'Rod Vagg',
+697 silly resolved        email: 'rod@vagg.org',
+697 silly resolved        url: 'https://github.com/rvagg' },
+697 silly resolved     contributors:
+697 silly resolved      [ [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object],
+697 silly resolved        [Object] ],
+697 silly resolved     repository:
+697 silly resolved      { type: 'git',
+697 silly resolved        url: 'https://github.com/workshopper/learnyounode.git' },
+697 silly resolved     license: 'MIT',
+697 silly resolved     dependencies:
+697 silly resolved      { after: '~0.8.1',
+697 silly resolved        bl: '^1.1.2',
+697 silly resolved        boganipsum: '~0.1.0',
+697 silly resolved        'colors-tmpl': '^1.0.0',
+697 silly resolved        'combined-stream': '^1.0.5',
+697 silly resolved        'concat-stream': '^1.5.1',
+697 silly resolved        duplexer: '^0.1.1',
+697 silly resolved        hyperquest: '^1.3.0',
+697 silly resolved        rimraf: '^2.5.2',
+697 silly resolved        through: '^2.3.8',
+697 silly resolved        through2: '^2.0.1',
+697 silly resolved        'through2-map': '^2.0.0',
+697 silly resolved        'workshopper-adventure': '^4.6.1',
+697 silly resolved        'workshopper-exercise': '^2.7.0',
+697 silly resolved        'workshopper-wrappedexec': '~0.1.1' },
+697 silly resolved     devDependencies: { 'workshopper-adventure-test': '^1.0.4' },
+697 silly resolved     scripts: { test: 'workshopper-adventure-test' },
+697 silly resolved     bin: { learnyounode: './bin/learnyounode' },
+697 silly resolved     main: './learnyounode.js',
+697 silly resolved     preferGlobal: true,
+697 silly resolved     readme: '# Learn You The Node.js For Much Win!\n[![Build Status](https://travis-ci.org/workshopper/learnyounode.svg?branch=master)](https://travis-ci.org/workshopper/learnyounode)\n[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/discussions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n**An intro to Node.js via a set of self-guided workshops.**\n\n[What is Node.js](https://github.com/nodeschool/what-is-node/blob/master/simple.en.md)\n\n[![NPM](https://nodei.co/npm/learnyounode.png?downloads=true&&downloadRank=true&stars=true)](https://nodei.co/npm/learnyounode/) [![NPM](https://nodei.co/npm-dl/learnyounode.png?months=3&height=3)](https://nodei.co/npm/learnyounode/)\n\n![Learn You The Node.js For Much Win!](https://raw.github.com/rvagg/learnyounode/master/learnyounode.png)\n\n  1. Install [Node.js](http://nodejs.org/)\n  2. Run `sudo npm install learnyounode -g`\n  3. Run `learnyounode`\n  \t3.1 (Ubuntu users) In case step 3 fails, run `sudo apt-get install nodejs-legacy`\n  4. **.. profit!**\n\n<b><code>learnyounode</code></b> will run through a series of Node.js workshops. Starting at a basic *"HELLO WORLD"* and moving on to more advanced exercises about dealing with synchronous & asynchronous I/O, filesystem operations, TCP and HTTP networking, events and streams.\n\nOnce you have finished <b><code>learnyounode</code></b>, graduate to <b><code>[stream-adventure](https://github.com/substack/stream-adventure)</code></b> for a set of exercises that dig in to Node\'s streams.\n\n### Contributors\n\n<b><code>learnyounode</code></b> is proudly brought to you by the following hackers:\n\n<table><tbody>\n<tr><th align="left">Rod Vagg</th><td><a href="https://github.com/rvagg">GitHub/rvagg</a></td><td><a href="http://twitter.com/rvagg">Twitter/@rvagg</a></td></tr>\n<tr><th align="left">Andrey Sidorov</th><td><a href="https://github.com/sidorares">GitHub/sidorares</a></td><td><a href="http://twitter.com/sidorares">Twitter/@sidorares</a></td></tr>\n<tr><th align="left">Julián Duque</th><td><a href="https://github.com/julianduque">GitHub/julianduque</a></td><td><a href="http://twitter.com/julian_duque">Twitter/@julian_duque</a></td></tr>\n<tr><th align="left">Lars-Magnus Skog</th><td><a href="https://github.com/ralphtheninja">GitHub/ralphtheninja</a></td><td><a href="http://twitter.com/ralphtheninja">Twitter/@ralphtheninja</a></td></tr>\n<tr><th align="left">Tim Inman</th><td><a href="https://github.com/thehack">GitHub/thehack</a></td><td><a href="http://twitter.com/timinman">Twitter/@timinman</a></td></tr>\n<tr><th align="left">Dan Flettre</th><td><a href="https://github.com/Flet">GitHub/Flet</a></td><td><a href="http://twitter.com/flettre">Twitter/@flettre</a></td></tr>\n<tr><th align="left">Leigh Zhu</th><td><a href="https://github.com/lisposter">GitHub/lisposter</a></td><td><a href="http://twitter.com/lisposter">Twitter/@lisposter</a></td></tr>\n<tr><th align="left">Lucas F. da Costa</th><td><a href="https://github.com/lucasfcosta">GitHub/lucasfcosta</a></td><td></td></tr>\n<tr><th align="left">Martin Heidegger</th><td><a href="https://github.com/martinheidegger">GitHub/martinheidegger</a></td><td><a href="http://twitter.com/leichtgewicht">Twitter/@leichtgewicht</a></td></tr>\n<tr><th align="left">Toshiharu Harada</th><td><a href="https://github.com/haradats">GitHub/haradats</a></td><td><a href="http://twitter.com/haradats">Twitter/@haradats</a></td></tr>\n<tr><th align="left">Eric Douglas</th><td><a href="https://github.com/ericdouglas">GitHub/ericdouglas</a></td><td><a href="http://twitter.com/ericdouglas_">Twitter/@ericdouglas_</a></td></tr>\n<tr><th align="left">Alejandro Oviedo</th><td><a href="https://github.com/a0viedo">GitHub/a0viedo</a></td><td><a href="http://twitter.com/a0viedo">Twitter/@a0viedo</a></td></tr>\n<tr><th align="left">Leonardo Nascimento</th><td><a href="https://github.com/leonascimento">GitHub/leonascimento</a></td><td><a href="http://twitter.com/leonardo386">Twitter/leonardo386</a></td></tr>\n<tr><th align="left">Christophe Porteneuve</th><td><a href="https://github.com/tdd">GitHub/tdd</a></td><td><a href="http://twitter.com/porteneuve">Twitter/@porteneuve</a></td></tr>\n<tr><th align="left">Do Minh Hai</th><td><a href="https://github.com/dominhhai">GitHub/dominhhai</a></td><td><a href="http://twitter.com/minhhai3b">Twitter/@minhhai3b</a></td></tr>\n<tr><th align="left">Phung Van Tu</th><td><a href="https://github.com/minatu2d">GitHub/minatu2d</a></td><td><a href="http://twitter.com/minatu2d">Twitter/@minatu2d</a></td></tr>\n<tr><th align="left">Shim</th><td><a href="https://github.com/marocchino">GitHub/marocchino</a></td><td><a href="http://twitter.com/marocchino">Twitter/@marocchino</a></td></tr>\n<tr><th align="left">Chayoung You</th><td><a href="https://github.com/yous">GitHub/yous</a></td><td><a href="http://twitter.com/_Yous">Twitter/@_Yous</a></td></tr>\n<tr><th align="left">Espen Dalløkken</th><td><a href="https://github.com/leftieFriele">GitHub/leftieFriele</a></td><td><a href="http://twitter.com/leftieFriele">Twitter/leftieFriele</a></td></tr>\n</tbody></table>\n\n## License\n\n**learnyounode** is Copyright (c) 2013-2015 learnyounode contributors (listed above) and licenced under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.\n\n**learnyounode** builds on the excellent work by [@substack](https://github.com/substack) and [@maxogden](https://github.com/maxogden) who created **[stream-adventure](https://github.com/substack/stream-adventure)** which serves as the original foundation for **learnyounode**.\n',
+697 silly resolved     readmeFilename: 'README.md',
+697 silly resolved     bugs: { url: 'https://github.com/workshopper/learnyounode/issues' },
+697 silly resolved     _id: 'learnyounode@3.5.3',
+697 silly resolved     dist: { shasum: '72d9d1bb611068e725008103c906333c22cee50b' },
+697 silly resolved     _from: 'learnyounode@',
+697 silly resolved     _resolved: 'https://registry.npmjs.org/learnyounode/-/learnyounode-3.5.3.tgz' } ]
+698 info install learnyounode@3.5.3 into /usr/local/lib
+699 info installOne learnyounode@3.5.3
+700 info /usr/local/lib/node_modules/learnyounode unbuild
+701 verbose tar unpack /home/vincent/.npm/learnyounode/3.5.3/package.tgz
+702 silly lockFile 97422473-al-lib-node-modules-learnyounode tar:///usr/local/lib/node_modules/learnyounode
+703 verbose lock tar:///usr/local/lib/node_modules/learnyounode /home/vincent/.npm/97422473-al-lib-node-modules-learnyounode.lock
+704 silly lockFile bb28b739-m-learnyounode-3-5-3-package-tgz tar:///home/vincent/.npm/learnyounode/3.5.3/package.tgz
+705 verbose lock tar:///home/vincent/.npm/learnyounode/3.5.3/package.tgz /home/vincent/.npm/bb28b739-m-learnyounode-3-5-3-package-tgz.lock
+706 silly gunzTarPerm modes [ '755', '644' ]
+707 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+707 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+707 error   errno: 3,
+707 error   code: 'EACCES',
+707 error   path: '/usr/local/lib/node_modules',
+707 error   fstream_type: 'Directory',
+707 error   fstream_path: '/usr/local/lib/node_modules/learnyounode',
+707 error   fstream_class: 'DirWriter',
+707 error   fstream_stack:
+707 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+707 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+707 error      'Object.oncomplete (fs.js:107:15)' ] }
+708 error Please try running this command again as root/Administrator.
+709 error System Linux 3.18.0-12318-g6183b25
+710 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "learnyounode" "-g"
+711 error cwd /home/vincent/code/wdi/w7/d1/01-intro-node-npm/first-node
+712 error node -v v0.10.25
+713 error npm -v 1.3.10
+714 error path /usr/local/lib/node_modules
+715 error fstream_path /usr/local/lib/node_modules/learnyounode
+716 error fstream_type Directory
+717 error fstream_class DirWriter
+718 error code EACCES
+719 error errno 3
+720 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+721 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+721 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+721 error fstream_stack Object.oncomplete (fs.js:107:15)
+722 verbose exit [ 3, true ]

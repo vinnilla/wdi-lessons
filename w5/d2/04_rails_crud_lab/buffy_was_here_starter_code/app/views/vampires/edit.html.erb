@@ -1,0 +1,9 @@
+<h1>Editing Vampire</h1>
+
+<!-- render the form partial -->
+<%= render "vampires/form.html.erb" %>
+
+<!-- add a link to this vampire's show page --> 
+<%= link_to "Show!", vampire_path(@vampire) %>
+<!-- add a link to the index page -->
+<%= link_to "Back to the vampire list!", vampires_path %>

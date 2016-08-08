@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <!-- display the vampire's name -->
+  <%= @vampire.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <!-- display the vampire's age -->
+  <%= @vampire.age %>
+</p>
+
+<p>
+  <strong>Sire:</strong>
+  <!-- display the vampire's sire -->
+  <%= @vampire.sire %>
+</p>
+
+<p>
+  <strong>Staked:</strong>
+  <!-- display the boolean value for whether this vampire has been staked -->
+  <%= @vampire.staked %>
+</p>
+
+<!-- add a link to this vampire's edit page --> 
+<%= link_to "Edit!", edit_vampire_path(@vampire) %>
+
+<!-- add a link to the index page -->
+
+<%= link_to "Back to the vampire list!", vampires_path %>
